@@ -1,0 +1,52 @@
+Given the following data:
+
+Input for the string stacks/queues/deques 
+Mark, Alan, Jennifer, Jordyn, Eric, JoAnn, Bryan
+
+Input for the double stacks/queues/deques  
+2019.1, 44.44, 888.55, 200.12, 123.123, 8.445, 
+
+A. Implement and print (top of stack to bottom) the stacks
+   using the STL <stack> with the above data.  
+B. Delete Jordyn and 200.12 from the above stacks (you will 
+   need to delete others) using the STL <stack> and print (top of 
+   stack to bottom) the remaining elements in the stacks. 
+C. Implement and print (top of stack to bottom) the stacks 
+   using a singly linked list using the above data.  Do not use the 
+   STL.
+D. Delete Jordyn and 200.12 from the above stacks (you will 
+   need to delete others) and print (top of stack to bottom) the 
+   remaining elements in the stacks. Do not use the STL.
+E. Implement and print the queues using either a circular array 
+   or a linked list using the above data.  Do not use the STL.
+F. Delete JoAnn and 200.12 from the above queues (you will 
+   need to delete others) and print the remaining elements in 
+   the queues. Do not use the STL.
+G. Implement and print the deques using a linked list using the 
+   above data (using push front).    Do not use the STL.
+H. Delete JoAnn (pop front) and 200.12 (pop back) from the 
+   above deques (you will need to delete others) and print the 
+   remaining elements in the deques. Do not use the STL.
+
+Label your output (part A, part B, part C, etc.)
+Do not put deleted elements back on the data structures.
+
+I. Implement the Parentheses Algorithm without using the 
+   STL).  Test your algorithm with the following mathematical 
+   statements.  
+   a. (12x + 6) (2x - 4)
+   b. {2x + 5} (6x+4) 
+   c. {2x + 7) (12x + 6)
+   d. {{8x+5) - 5x[9x+3]})
+   e.  (((4x+8) - x[4x+3])))
+   f. [(5x - 5) - 4x[6x + 2]]
+   g. {(8x+5) - 6x[9x+3]]
+
+J. (extra credit – 3 points) If valid, write software to evaluate 
+   the valid expressions above assuming x = -2.
+
+Your output should CLEARLY demonstrate the above.  Print out 
+the part number before you display the stacks/queues/deques.
+
+Due on February 3rd
+
