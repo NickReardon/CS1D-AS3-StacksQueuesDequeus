@@ -115,13 +115,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="dequeType.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="PrintHeader.h" />
+    <ClInclude Include="linkedQueue.h" />
+    <ClInclude Include="stackType.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="doubleInput.txt" />
+    <Text Include="stringInput.txt" />
     <Text Include="IOStream.txt" />
     <Text Include="Prompt.txt" />
   </ItemGroup>

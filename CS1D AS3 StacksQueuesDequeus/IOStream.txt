@@ -1,0 +1,275 @@
+****************************************************************************
+* PROGRAMMED BY : Nick Reardon
+* CLASS         : CS1D
+* SECTION       : MW - 2:30p
+* Assignment #3 : Stacks, Queues, Dequeus
+****************************************************************************
+
+                    Assignment #3 - Stacks, Queues, Dequeus
+
+Given the following data:
+
+Input for the string stacks/queues/deques
+Mark, Alan, Jennifer, Jordyn, Eric, JoAnn, Bryan
+
+Input for the double stacks/queues/deques
+2019.1, 44.44, 888.55, 200.12, 123.123, 8.445,
+
+A. Implement and print (top of stack to bottom) the stacks
+   using the STL <stack> with the above data.
+B. Delete Jordyn and 200.12 from the above stacks (you will
+   need to delete others) using the STL <stack> and print (top of
+   stack to bottom) the remaining elements in the stacks.
+C. Implement and print (top of stack to bottom) the stacks
+   using a singly linked list using the above data.  Do not use the
+   STL.
+D. Delete Jordyn and 200.12 from the above stacks (you will
+   need to delete others) and print (top of stack to bottom) the
+   remaining elements in the stacks. Do not use the STL.
+E. Implement and print the queues using either a circular array
+   or a linked list using the above data.  Do not use the STL.
+F. Delete JoAnn and 200.12 from the above queues (you will
+   need to delete others) and print the remaining elements in
+   the queues. Do not use the STL.
+G. Implement and print the deques using a linked list using the
+   above data (using push front).    Do not use the STL.
+H. Delete JoAnn (pop front) and 200.12 (pop back) from the
+   above deques (you will need to delete others) and print the
+   remaining elements in the deques. Do not use the STL.
+
+Label your output (part A, part B, part C, etc.)
+Do not put deleted elements back on the data structures.
+
+I. Implement the Parentheses Algorithm without using the
+   STL).  Test your algorithm with the following mathematical
+   statements.
+   a. (12x + 6) (2x - 4)
+   b. {2x + 5} (6x+4)
+   c. {2x + 7) (12x + 6)
+   d. {{8x+5) - 5x[9x+3]})
+   e. (((4x+8) - x[4x+3])))
+   f. [(5x - 5) - 4x[6x + 2]]
+   g. {(8x+5) - 6x[9x+3]]
+
+J. (extra credit û 3 points) If valid, write software to evaluate
+   the valid expressions above assuming x = -2.
+
+Your output should CLEARLY demonstrate the above.  Print out
+the part number before you display the stacks/queues/deques.
+
+Due on February 3rd
+
+
+****************************************************************************
+
+Reading from file into string stacks/queue/deque
+Reading from file into double stacks/queue/deque
+
+   --- PART A ---
+
+Printing STL stack:
+Bryan
+JoAnn
+Eric
+Jordyn
+Jennifer
+Alan
+Mark
+
+Printing STL stack:
+8.445
+123.123
+200.12
+888.55
+44.44
+2019.1
+
+
+   --- PART B ---
+
+Deleting Jordyn from the STL stack
+deleting Bryan
+deleting JoAnn
+deleting Eric
+deleting Jordyn
+
+Deleting 200.12 from the STL stack
+deleting 8.445
+deleting 123.123
+deleting 200.12
+
+Printing STL stack:
+Jennifer
+Alan
+Mark
+
+Printing STL stack:
+888.55
+44.44
+2019.1
+
+
+   --- PART C ---
+
+Printing singly linked list stacks:
+
+Printing stack:
+Bryan
+JoAnn
+Eric
+Jordyn
+Jennifer
+Alan
+Mark
+
+Printing stack:
+8.445
+123.123
+200.12
+888.55
+44.44
+2019.1
+
+
+   --- PART D ---
+
+Deleting Jordyn from the linked list stack
+Popped item is Bryan
+Popped item is JoAnn
+Popped item is Eric
+Popped item is Jordyn
+
+Deleting 200.12 from the linked list stack
+Popped item is 8.445
+Popped item is 123.123
+Popped item is 200.12
+
+Printing stack:
+Jennifer
+Alan
+Mark
+
+Printing stack:
+888.55
+44.44
+2019.1
+
+
+   --- PART E ---
+
+Printing singly linked list queues:
+
+Printing queue:
+2019.1
+44.44
+888.55
+200.12
+123.123
+8.445
+
+Printing queue:
+Mark
+Alan
+Jennifer
+Jordyn
+Eric
+JoAnn
+Bryan
+
+
+   --- PART F ---
+
+Deleting Jordyn from the linked list queue
+deQueued item is Mark
+deQueued item is Alan
+deQueued item is Jennifer
+deQueued item is Jordyn
+
+Deleting 200.12 from the linked list queue
+deQueued item is 2019.1
+deQueued item is 44.44
+deQueued item is 888.55
+deQueued item is 200.12
+
+Printing queue:
+123.123
+8.445
+
+Printing queue:
+Eric
+JoAnn
+Bryan
+
+
+   --- PART G ---
+
+Printing doubly linked list deques:
+
+Printing deque front to back:
+Bryan
+JoAnn
+Eric
+Jordyn
+Jennifer
+Alan
+Mark
+
+Printing deque front to back:
+8.445
+123.123
+200.12
+888.55
+44.44
+2019.1
+
+
+   --- PART H ---
+
+Deleting Jordyn, using pop front, from the doubly linked list deque
+removing from front: Bryan
+removing from front: JoAnn
+removing from front: Eric
+removing from front: Jordyn
+
+Deleting 200.12, using pop back, from the doubly linked list deque
+removing from back: 2019.1
+removing from back: 44.44
+removing from back: 888.55
+removing from back: 200.12
+
+Printing deque front to back:
+Jennifer
+Alan
+Mark
+
+Printing deque front to back:
+8.445
+123.123
+
+
+   --- PART I ---
+
+Testing Parentheses Algorithm - using singly linked list stack
+
+
+(12x + 6) (2x - 4)
+Balanced
+
+{2x + 5} (6x+4)
+Balanced
+
+{2x + 7) (12x + 6)
+Not Balanced
+
+{{8x+5) - 5x[9x+3]})
+Not Balanced
+
+(((4x+8) - x[4x+3])))
+Not Balanced
+
+[(5x - 5) - 4x[6x + 2]]
+Balanced
+
+{(8x+5) - 6x[9x+3]]
+Not Balanced
+Press any key to continue . . .

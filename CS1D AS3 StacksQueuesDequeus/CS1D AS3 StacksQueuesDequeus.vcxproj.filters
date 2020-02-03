@@ -21,6 +21,15 @@
     <ClInclude Include="PrintHeader.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="stackType.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dequeType.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="linkedQueue.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -32,6 +41,12 @@
       <Filter>Resource Files</Filter>
     </Text>
     <Text Include="Prompt.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="stringInput.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="doubleInput.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

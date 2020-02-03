@@ -38,7 +38,7 @@ I. Implement the Parentheses Algorithm without using the
    b. {2x + 5} (6x+4) 
    c. {2x + 7) (12x + 6)
    d. {{8x+5) - 5x[9x+3]})
-   e.  (((4x+8) - x[4x+3])))
+   e. (((4x+8) - x[4x+3])))
    f. [(5x - 5) - 4x[6x + 2]]
    g. {(8x+5) - 6x[9x+3]]
 
